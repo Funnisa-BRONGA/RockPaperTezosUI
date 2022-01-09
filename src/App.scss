@@ -1,0 +1,266 @@
+
+
+.awssld__content {
+  align-items: left ;
+  justify-content: left !important;
+}
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.topnav {
+  background-color: #1a0dab;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav h1 {
+float: center;
+color: #1a0dab;
+text-align: center;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: green;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+text-align: top;
+padding: 10px 10px;
+}
+
+.sliderimg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover
+}
+
+.leftDiv{
+  width: 50%; height: 200px; float: left; border-style: solid;
+  padding-top: 20px;
+}
+
+.rightDiv{
+  margin-left: 50%; height: 200px;border-style: solid;
+  padding-top: 70px;
+}
+
+.similarProdImg_div{
+  padding-bottom: 50px;
+}
+.image{
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 100px;
+}
+
+.spanGeneral {
+  text-align: center;
+  margin-top: 100px;
+  /*padding-top: 10%;*/
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  width: 33%;
+  height:500px;
+}
+.imgprd {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.price {
+  position: relative;
+  top: 5%;
+  left: 30%;
+  padding: 1px 24px 50px 24px;
+  text-align: center;
+}
+.text {
+  position: relative;
+  bottom: 100%;
+  right: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: right;
+  //font-family: Arial Narrow, sans-serif;
+}
+// .title {
+// position: relative;
+//   right: 80%;
+//   color: black;
+//   font-size: 30px;
+//   padding: 12px 24px;
+//   text-align: right;
+//   font-family: Arial Narrow, sans-serif;
+//   font-weight: bold;
+// }
+
+.fixedContainer {
+  background-color:#ddd;
+  position: fixed;
+  padding: 2em;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+}
+
+.column_similarProduct {
+  float: left;
+  width: 100%;
+}
+
+.content .btn {
+  position: relative;
+  bottom: 100%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: red;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.shop_btn {
+  position: relative;
+  bottom: -10%;
+  left: 10%;
+  transform: translate(-20%, 10%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.profile_btn {
+  position: relative;
+  left: 1%;
+  transform: translate(-25%, 15%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f7fcfc;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: brown;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 70px;
+}
+.navbar_btn{
+  position: relative;
+  left: 1%;
+  transform: translate(-25%, 15%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: darkcyan;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: brown;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.column_similarProduct_btn{
+  float: right;
+  position: relative;
+  /*transform: translate(-150%, 590%);*/
+  /*transform: translate(50%, 590%);*/
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.content .btn:hover {
+  background-color: black;
+}
+
+.aws-btn {
+  --slider-height-percentage: 60%;
+  --organic-arrow-thickness: 20px;
+}
+
+.addProfileBt{
+  float: right;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css)
+
+
